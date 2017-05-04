@@ -9,8 +9,8 @@ pipelines:
   default:
     - step:
         script: # Modify the commands below to build your repository.
-          - export PROJECT_NAME=scope
-          - export TEST_NAME=scope.test
+          - export PROJECT_NAME=Scope
+          - export TEST_NAME=Scope.Test
 
           - dotnet restore
           - dotnet build $PROJECT_NAME
