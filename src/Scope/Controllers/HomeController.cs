@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using Scope.Library;
 
 namespace Scope.Controllers
 {
@@ -22,7 +23,7 @@ namespace Scope.Controllers
 
         public IActionResult Contact()
         {
-            ViewData["Message"] = "Your contact page.";
+            ViewData["Message"] = Hello.World();
 
             return View();
         }
