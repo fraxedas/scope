@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26403.7
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DAE07580-F3E7-4562-A75D-F0C77A94AA8A}"
 	ProjectSection(SolutionItems) = preProject
@@ -12,6 +12,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scope", "Scope\Scope.csproj", "{93ACF2CD-7F03-469C-96A6-54FD8ECF1D86}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scope.Library", "Scope.Library\Scope.Library.csproj", "{EE6BF254-F2E5-4CA2-AAFE-21166ED68249}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Scope.AWS", "Scope.AWS\Scope.AWS.xproj", "{FAB5CFD4-5E5B-4954-A80A-C023DCD2477B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{EE6BF254-F2E5-4CA2-AAFE-21166ED68249}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EE6BF254-F2E5-4CA2-AAFE-21166ED68249}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EE6BF254-F2E5-4CA2-AAFE-21166ED68249}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAB5CFD4-5E5B-4954-A80A-C023DCD2477B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAB5CFD4-5E5B-4954-A80A-C023DCD2477B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAB5CFD4-5E5B-4954-A80A-C023DCD2477B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAB5CFD4-5E5B-4954-A80A-C023DCD2477B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
