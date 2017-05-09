@@ -15,5 +15,5 @@
   "function-runtime":"dotnetcore1.0",
   "function-memory-size" : 256,
   "function-timeout" : 30,
-  "function-handler" : "Scope_Lambda::Scope_Lambda.Function::FunctionHandler"
+  "function-handler" : "Scope.Lambda::Scope.Lambda.Function::FunctionHandler"
 }
