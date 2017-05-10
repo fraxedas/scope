@@ -9,6 +9,7 @@ phases:
       - echo Nothing to do in the pre_build phase...
   build:
     commands:
+      - dotnet restore
       - dotnet build
       - dotnet publish
   post_build:
