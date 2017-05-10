@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scope.Library", "Scope.Libr
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Scope.Lambda", "Scope.Lambda\Scope.Lambda.csproj", "{F9336443-3EAA-40D9-8E2F-5219105F04D8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scope.Test", "Scope.Test\Scope.Test.csproj", "{4A9EEC01-6BAB-43A8-AC87-08FFE982C97F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{F9336443-3EAA-40D9-8E2F-5219105F04D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F9336443-3EAA-40D9-8E2F-5219105F04D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F9336443-3EAA-40D9-8E2F-5219105F04D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A9EEC01-6BAB-43A8-AC87-08FFE982C97F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A9EEC01-6BAB-43A8-AC87-08FFE982C97F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A9EEC01-6BAB-43A8-AC87-08FFE982C97F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A9EEC01-6BAB-43A8-AC87-08FFE982C97F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

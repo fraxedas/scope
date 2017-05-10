@@ -5,7 +5,7 @@ namespace Scope.Library
     {
         public static string World(string name = null)
         {
-            return string.IsNullOrEmpty(name) ? "Hello world!" : $"Hello {name}";
+            return string.IsNullOrEmpty(name) ? "Hello world!" : $"Hello {name}!";
         }
     }
 }
