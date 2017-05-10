@@ -3,7 +3,7 @@ version: 0.2
 phases:
   install:
     commands:
-      - npm install -g dotnet
+      - npm install -g dotnet -v
   pre_build:
     commands:
       - dotnet --version
