@@ -1,11 +1,10 @@
-version: 0.2
-
 phases:
   install:
     commands:
-      - npm install -g dotnet -v
+      - echo Install completed on `date`
   pre_build:
     commands:
+      - npm install -g dotnet -v
       - dotnet --version
   build:
     commands:
