@@ -8,15 +8,17 @@ namespace Scope.Lambda
     public class Function
     {
         
-        /// <summary>
-        /// A simple function that takes a string and does a ToUpper
-        /// </summary>
-        /// <param name="input"></param>
-        /// <param name="context"></param>
-        /// <returns></returns>
-        public string FunctionHandler(string input, ILambdaContext context)
+        public object FunctionHandler()
         {
-            return Scope.Library.Hello.World(input);
+            var result = Library.Hello.World();
+            LambdaLogger.Log(result);
+
+            return new
+            {
+                isBase64Encoded = true,
+                statusCode = 200,
+                body = result
+            };
         }
     }
 }
